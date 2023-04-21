@@ -48,7 +48,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: "docgalaxyblock/open_mower_ros"
+          repository: "NDaub/open_mower_ros"
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v4
