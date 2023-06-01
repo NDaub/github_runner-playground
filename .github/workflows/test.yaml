@@ -48,7 +48,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          repository: "NDaub/open_mower_ros/tree/undocking-fix"
+          repository: "NDaub/open_mower_ros"
+          ref: "undocking-fix"
       - name: Docker meta
         id: meta
         uses: docker/metadata-action@v4
