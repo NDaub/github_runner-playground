@@ -68,7 +68,7 @@ jobs:
 
     steps:
 
-    - name: Test
+    - name: Test2
       run: |
         echo needs.setup.outputs.matrix: ${{ needs.setup.outputs.matrix_name }}
         echo matrix.docker_build_arch: ${{ matrix.docker_build_arch }}
@@ -82,8 +82,8 @@ jobs:
 #      - name: Checkout
 #        uses: actions/checkout@v3
 #        with:
-#          repository: NDaub/open_mower_ros
-           ref: undocking-fix
+#          repository: "NDaub/open_mower_ros"
+           ref: "undocking-fix"
 #      - name: Docker meta
 #        id: meta
 #        uses: docker/metadata-action@v4
