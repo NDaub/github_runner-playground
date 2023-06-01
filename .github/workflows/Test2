@@ -55,8 +55,8 @@ jobs:
 
   test:
     needs: setup
-    #runs-on: ubuntu-latest
-    runs-on: [ self-hosted, linux, ARM64 ]
+    runs-on: ubuntu-latest
+    #runs-on: [ self-hosted, linux, ARM64 ]
 
     strategy:
       fail-fast: false
